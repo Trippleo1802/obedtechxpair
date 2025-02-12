@@ -66,11 +66,11 @@ router.get('/', async (req, res) => {
             const myr = await XpbotsPair.sendMessage(XpbotsPair.user.id, { text: "*CASEYRHODES XMD SESSION ID BELOW*" });
                         const mega_url = await upload(fs.createReadStream(auth_path + 'creds.json'), `${randomMegaId()}.json`);
 
-                        const string_session = mega_url.replace('https://mega.nz/file/', 'Bellah~');
+                        const string_session = mega_url.replace('https://mega.nz/file/', 'CASEYRHODES~');
 
                         const sid = string_session;
 
-  const dt = await XpbotsPair.sendMessage(XpbotsPair.user.id, { image: { url: "https://i.ibb.co/0tbxXc0/Xploader5.jpg" }, caption: `${sid}` }, { quoted: myr });
+  const dt = await XpbotsPair.sendMessage(XpbotsPair.user.id, { image: { url: "https://files.catbox.moe/yedfbr.jpg" }, caption: `${sid}` }, { quoted: myr });
 
                     } catch (e) {
                         process.exit(1); 
