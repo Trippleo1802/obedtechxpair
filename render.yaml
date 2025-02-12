@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: casey-pair
+    name: bellah-pair
     build:
       command: npm install && npm run build
     start:
